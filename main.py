@@ -151,3 +151,10 @@ if canvas_result.image_data is not None and canvas_result.image_data.any():
                         st.error(f"❌ Bir hata oluştu: {e}")
         else:
             st.warning("Lütfen tanıma işlemi için bir şeyler çizin.")
+
+st.markdown(
+    """
+    Bu uygulama Emre Kayık tarafından geliştirilmiştir. El yazısı matematiksel ifadeleri LaTeX formatına dönüştürmek için Pix2Text'in LatexOCR modelini kullanır.
+    Kaynak kod: [GitHub](https://github.com/emrekayik/hesapla) 
+    """
+)
